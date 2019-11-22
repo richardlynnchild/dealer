@@ -9,8 +9,15 @@ The positivity rating will then be calculated for each review. The top three
 "most positive" reviews will be logged to the console.
 
 ## How to run
-To run this script use `python3 main.py`
 To install all required python packages use `pip3 install -r requirements.txt`
+
+To run this script use `python3 main.py`
+
+# Testing
+Unit testing has been implemented for this project.
+
+To run the test suite for this project use `python3 test_suite.py`
+
 
 ## Positivity Ratings
 Positivity rating is defined as the number of positive words in a review divided by the total
