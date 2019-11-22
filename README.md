@@ -1,4 +1,6 @@
 # A Dealer for the People
+(project can be found https://github.com/richardlynnchild/dealer)
+
 The goal for this project is to determine the most positive reviews listed
 for the car dealership *McKaig Chevrolet Buick* on the website **dealerrater.com**.
 The script `main.py` will perform the web scraping on the first five pages of
