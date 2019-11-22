@@ -1,7 +1,7 @@
 # A Dealer for the People
 The goal for this project is to determine the most positive reviews listed
 for the car dealership *McKaig Chevrolet Buick* on the website **dealerrater.com**.
-The script main.py will perform the web scraping on the first five pages of
+The script `main.py` will perform the web scraping on the first five pages of
 reviews on the website. Some console output will appear to indicate the progress
 of the web scraping.
 
