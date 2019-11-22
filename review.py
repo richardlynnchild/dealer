@@ -12,6 +12,8 @@ class Review:
         Parameters:
             text: the review text
         """
+        if text is None:
+            raise TypeError("Expected string but received NoneType")
         self.text = text
 
     def get_text(self):

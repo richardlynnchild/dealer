@@ -33,7 +33,7 @@ class PositivityCalculator:
         num_nice_words = 0
         words = text.split(' ')
         for word in words:
-            if self.positive_words.count(word):
+            if word.lower() in self.positive_words:
                 num_nice_words += 1
         positivity = num_nice_words / len(words)
         return positivity
