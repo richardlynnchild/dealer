@@ -13,8 +13,8 @@ To run this script use `python3 main.py`
 To install all required python packages use `pip3 install -r requirements.txt`
 
 ## Positivity Ratings
-Positivity rating is defined as the number of positive words divided by the total
-number of words in the review. For example is a review contains 20 positive words
+Positivity rating is defined as the number of positive words in a review divided by the total
+number of words in the review. For example, if a review contains 20 positive words
 and is 80 words long, then the positivity rating would be **0.25**.
 
 A text file of "positive" words has been included in this project. It was taken
